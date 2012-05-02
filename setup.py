@@ -18,7 +18,7 @@ setup(
     author_email='allan.caffee@gmail.com',
     license='BSD',
     packages=['scalymongo', 'scalymongo.manage'],
-    install_requires=['pymongo>=1.9'],
+    install_requires=['pymongo==2.1.1'],
     test_suite='tests',
     long_description=read('README.rst'),
     entry_points={
